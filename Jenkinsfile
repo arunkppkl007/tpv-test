@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'frontend-node-label' }  // Replace with the actual label of your frontend node
+    agent { label 'TPVclient1' }  // Replace with the actual label of your frontend node
     
     environment {
         GIT_REPO = 'https://github.com/arunkppkl007/tpv-test.git'  // Public GitHub repository
